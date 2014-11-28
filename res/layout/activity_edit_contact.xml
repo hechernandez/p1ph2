@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+    <EditText
+        android:id="@+id/firstNameEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10.0dip"
+        android:ems="10"
+        android:hint="@string/FirstName"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/lastNameEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10.0dip"
+        android:ems="10"
+        android:hint="@string/LastName"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/cellPhoneEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10.0dip"
+        android:ems="10"
+        android:hint="@string/CellPhone"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/workPhoneEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10.0dip"
+        android:ems="10"
+        android:hint="@string/WorkPhone"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/emailEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10.0dip"
+        android:ems="10"
+        android:hint="@string/Email"
+        android:inputType="none" />
+
+    <Button
+        android:id="@+id/add_addressEdit"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2.5dip"
+        android:clickable="true"
+        android:enabled="true"
+        android:hint="@string/AddAddress"
+        android:text="@string/AddAddress" />
+
+    <Button
+        android:id="@+id/contact_informationEdit"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2.5dip"
+        android:clickable="true"
+        android:enabled="true"
+        android:hint="@string/ContactInfo"
+        android:text="@string/ContactInfo" />
+
+    <Button
+        android:id="@+id/contact_informationSave"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2.5dip"
+        android:clickable="true"
+        android:enabled="true"
+        android:onClick="connect"
+        android:hint="@string/Save"
+        android:text="@string/Save" />
+
+    <Button
+        android:id="@+id/delete_contactEdit"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2.5dip"
+        android:clickable="true"
+        android:enabled="true"
+        android:hint="@string/DeleteContact"
+        android:text="@string/DeleteContact" />
+</LinearLayout>

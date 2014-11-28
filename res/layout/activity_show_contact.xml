@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true"
+        android:orientation="vertical"
+        android:scrollbarSize="3.0dip" >
+
+        <TextView
+            android:id="@+id/contact_info_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ContactInfo"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginStart="10.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FirstNameTitle"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/firstName_show"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:text="@string/FirstName"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:text="@string/LastNameTitle"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/lastName_show"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:hint="@string/LastName"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:text="@string/CellPhoneTitle"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/cell_phone_show"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:hint="@string/CellPhone"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:text="@string/WorkPhoneTitle"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/workPhone_show"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:hint="@string/WorkPhone"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:hint="@string/Email"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/email_show"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:hint="@string/Email"
+                android:inputType="textEmailAddress" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/home_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/PrimaryAddress"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:inputType="none" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:text="@string/Street"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/street"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:text="@string/Street"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:text="@string/Number"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@id/number"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:text="@string/Number"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:text="@string/City"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@id/city"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:text="@string/City"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:text="@string/State"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@id/state"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:text="@string/State"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:text="@string/ZipCode"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/zip_code"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:text="@string/ZipCode"
+                android:inputType="none" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/deleteButton"
+            style="@style/Base.V7.Theme.AppCompat.Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dip"
+            android:onClick="Delete Address"
+            android:text="@string/DeleteAddress" />
+
+        <EditText
+            android:id="@+id/work_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="none"
+            android:text="@string/SecondaryAddress"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:text="@string/Street2"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/street_work"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:text="@string/Street2"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:text="@string/Number2"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/number_work"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:text="@string/Number2"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:hint="@string/City2"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/city_work"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:inputType="none"
+                android:text="City"
+                android:hint="@string/City2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:hint="@string/State2"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/state_work"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:inputType="none"
+                android:text="State"
+                android:hint="@string/State2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginStart="10.0dip"
+                android:hint="@string/ZipCode2"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/zip_code_work"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.0"
+                android:hint="@string/ZipCode2"
+                android:text="City"
+                android:inputType="none" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/deleteButtonWork"
+            style="@style/Base.V7.Theme.AppCompat.Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dip"
+            android:onClick="Delete Address"
+            android:text="@string/DeleteAddress" />
+    </LinearLayout>
+
+</ScrollView>              

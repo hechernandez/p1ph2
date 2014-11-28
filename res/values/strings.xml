@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">p1ph2</string>
+    <string name="action_settings">Settings</string>
+    <string name="voiceSearch">Voice Search By Full Name</string>
+    <string name="contactAdd">Add A Contact</string>
+    <string name="newContact">New Contact</string>
+    <string name="Email">E-mail</string>
+    <string name="WorkPhone">Work Phone</string>
+    <string name="CellPhone">Cell Phone</string>
+    <string name="Save">Save Contact</string>
+    <string name="ContactInfo">Contact Info</string>
+    <string name="FirstName">First Name</string>
+    <string name="FirstNameTitle">First Name</string>
+    <string name="LastNameTitle">Last Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="CellPhoneTitle">Cell Phone</string>
+    <string name="WorkPhoneTitle">Work Phone</string>
+    <string name="EmailTitle">Email</string>
+    <string name="PrimaryAddress">Primary Address</string>
+    <string name="Street">Street</string>
+    <string name="Number">Number</string>
+    <string name="City">City</string>
+    <string name="State">State</string>
+    <string name="ZipCode">Zip Code</string>
+    <string name="DeleteAddress">Delete Address</string>
+    <string name="SecondaryAddress">Secondary Address</string>
+    <string name="Street2">Street</string>
+    <string name="Number2">Number</string>
+    <string name="ZipCode2">Zip Code</string>
+    <string name="State2">State</string>
+    <string name="City2">City</string>
+    <string name="SaveAddress">Save Address</string>
+    <string name="HomeWorkAddress">Home/Work Address</string>
+    <string name="AddAddress">Add Address</string>
+    <string name="DeleteContact">Delete Contact</string>
+    <string name="title_activity_edit_contact">EditContactActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_new_address">NewAddressActivity</string>
+    <string name="title_activity_new_contact">NewContactActivity</string>
+    <string name="title_activity_show_contact">ShowContactActivity</string>
+    <string name="contactGet">Get Contact List</string>
+
+</resources>
